@@ -21,9 +21,11 @@ Możesz łatwo zmienić ścieżkę do pliku logu, modyfikując zmienną LOG_FILE
 ## Jak uruchomić skrypt?
 Aby uruchomić skrypt, wykonaj poniższe kroki w terminalu:
 
-* Nadaj plikowi uprawnienia do wykonania:  ### chmod +x update.sh
+* Nadaj plikowi uprawnienia do wykonania:
+* ### chmod +x update.sh
 
-* Uruchom skrypt z uprawnieniami administratora (sudo):  ### sudo ./update.sh
+* Uruchom skrypt z uprawnieniami administratora (sudo):
+* ### sudo ./update.sh
 
 
 Skrypt rozpocznie proces aktualizacji, wyświetlając postęp na ekranie i jednocześnie zapisując go do pliku logu.
