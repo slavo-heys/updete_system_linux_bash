@@ -26,7 +26,7 @@ Aby uruchomić skrypt, wykonaj poniższe kroki w terminalu:
 * ### chmod +x update.sh
 
 * Uruchom skrypt z uprawnieniami administratora (sudo):
-* ### sudo ./update.sh
+* ### <u>sudo ./update.sh</u>
 
 
 Skrypt rozpocznie proces aktualizacji, wyświetlając postęp na ekranie i jednocześnie zapisując go do pliku logu.
