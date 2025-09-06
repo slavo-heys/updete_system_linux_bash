@@ -1,0 +1,2 @@
+# updete_system_linux_bash
+Update-Upgrade-Autoremove-Autoclean_w_bash
