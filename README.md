@@ -17,16 +17,19 @@ Czytelność: Kod jest dobrze zorganizowany, wykorzystuje funkcje i zawiera kome
 
 ## Konfiguracja
 Możesz łatwo zmienić ścieżkę do pliku logu, modyfikując zmienną LOG_FILE na początku skryptu:  
-### LOG_FILE="/twoja/wlasna/sciezka/do/update.log"
+* ### LOG_FILE="/twoja/wlasna/sciezka/do/update.log"
 
 ## Jak uruchomić skrypt?
 Aby uruchomić skrypt, wykonaj poniższe kroki w terminalu:
 
-* Nadaj plikowi uprawnienia do wykonania:
+Nadaj plikowi uprawnienia do wykonania:
 * ### chmod +x update.sh
 
-* Uruchom skrypt z uprawnieniami administratora (sudo):
+Uruchom skrypt z uprawnieniami administratora (sudo):
 * ### <u>sudo ./update.sh</u>
 
 
 Skrypt rozpocznie proces aktualizacji, wyświetlając postęp na ekranie i jednocześnie zapisując go do pliku logu.
+
+To jest zwykły tekst, a <u>ten fragment będzie podkreślony</u>.
+
