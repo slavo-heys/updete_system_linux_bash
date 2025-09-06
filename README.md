@@ -1,7 +1,7 @@
-Skrypt Aktualizacyjny dla Systemów Debian/Ubuntu
+#Skrypt Aktualizacyjny dla Systemów Debian/Ubuntu
 Prosty, ale solidny skrypt Bash do automatyzacji procesu aktualizacji i czyszczenia systemu na dystrybucjach opartych na Debianie (takich jak Ubuntu, Linux Mint itp.). Idealny do uruchamiania ręcznego lub jako zadanie cron.
 
-Opis
+##Opis
 Skrypt wykonuje pełen cykl konserwacji systemu za pomocą menedżera pakietów apt-get, wykonując po kolei następujące kroki:
 
 apt-get update: Odświeża listę dostępnych pakietów.
@@ -15,26 +15,15 @@ Sprawdzanie Uprawnień: Skrypt automatycznie weryfikuje, czy jest uruchomiony z 
 Automatyczne Tworzenie Katalogu: Skrypt sam tworzy katalog na plik logu, jeśli ten nie istnieje, co zapobiega błędom przy pierwszym uruchomieniu.
 Czytelność: Kod jest dobrze zorganizowany, wykorzystuje funkcje i zawiera komentarze, co ułatwia jego zrozumienie i ewentualne modyfikacje.
 
-Konfiguracja
-Możesz łatwo zmienić ścieżkę do pliku logu, modyfikując zmienną LOG_FILE na początku skryptu:
+##Konfiguracja
+Możesz łatwo zmienić ścieżkę do pliku logu, modyfikując zmienną LOG_FILE na początku skryptu:  LOG_FILE="/twoja/wlasna/sciezka/do/update.log"
 
-bash
-# --- Konfiguracja ---
-LOG_FILE="/twoja/wlasna/sciezka/do/update.log"
-
-
-Jak uruchomić skrypt?
+##Jak uruchomić skrypt?
 Aby uruchomić skrypt, wykonaj poniższe kroki w terminalu:
 
-Nadaj plikowi uprawnienia do wykonania:
+*Nadaj plikowi uprawnienia do wykonania:  chmod +x update.sh
 
-bash
-chmod +x update.sh
+*Uruchom skrypt z uprawnieniami administratora (sudo):  sudo ./update.sh
 
-
-Uruchom skrypt z uprawnieniami administratora (sudo):
-
-bash
-sudo ./update.sh
 
 Skrypt rozpocznie proces aktualizacji, wyświetlając postęp na ekranie i jednocześnie zapisując go do pliku logu.
