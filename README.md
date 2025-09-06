@@ -16,7 +16,8 @@ Automatyczne Tworzenie Katalogu: Skrypt sam tworzy katalog na plik logu, jeśli 
 Czytelność: Kod jest dobrze zorganizowany, wykorzystuje funkcje i zawiera komentarze, co ułatwia jego zrozumienie i ewentualne modyfikacje.
 
 ## Konfiguracja
-Możesz łatwo zmienić ścieżkę do pliku logu, modyfikując zmienną LOG_FILE na początku skryptu:  ### LOG_FILE="/twoja/wlasna/sciezka/do/update.log"
+Możesz łatwo zmienić ścieżkę do pliku logu, modyfikując zmienną LOG_FILE na początku skryptu:  
+### LOG_FILE="/twoja/wlasna/sciezka/do/update.log"
 
 ## Jak uruchomić skrypt?
 Aby uruchomić skrypt, wykonaj poniższe kroki w terminalu:
