@@ -1,4 +1,4 @@
-#Skrypt Aktualizacyjny dla Systemów Debian/Ubuntu
+# Skrypt Aktualizacyjny dla Systemów Debian/Ubuntu
 Prosty, ale solidny skrypt Bash do automatyzacji procesu aktualizacji i czyszczenia systemu na dystrybucjach opartych na Debianie (takich jak Ubuntu, Linux Mint itp.). Idealny do uruchamiania ręcznego lub jako zadanie cron.
 
 ##Opis
